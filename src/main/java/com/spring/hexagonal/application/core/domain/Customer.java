@@ -1,6 +1,6 @@
 package com.spring.hexagonal.application.core.domain;
 
-public class Custumer {
+public class Customer {
 
     private Long id;
     private String name;
@@ -8,11 +8,11 @@ public class Custumer {
     private String cpf;
     private boolean isValidCpf;
 
-    public Custumer(){
+    public Customer(){
         this.isValidCpf = false;
     }
 
-    public Custumer(Long id, String name, Address address, String cpf, boolean isValidCpf) {
+    public Customer(Long id, String name, Address address, String cpf, boolean isValidCpf) {
         this.id = id;
         this.name = name;
         this.address = address;
