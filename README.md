@@ -1,1 +1,1 @@
-# -hexagonal_architecture
+# hexagonal_architecture
