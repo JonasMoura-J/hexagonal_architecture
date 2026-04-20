@@ -2,7 +2,7 @@ package com.spring.hexagonal.application.core.domain;
 
 public class Customer {
 
-    private Long id;
+    private String id;
     private String name;
     private Address address;
     private String cpf;
@@ -12,7 +12,7 @@ public class Customer {
         this.isValidCpf = false;
     }
 
-    public Customer(Long id, String name, Address address, String cpf, boolean isValidCpf) {
+    public Customer(String id, String name, Address address, String cpf, boolean isValidCpf) {
         this.id = id;
         this.name = name;
         this.address = address;
@@ -20,11 +20,11 @@ public class Customer {
         this.isValidCpf = isValidCpf;
     }
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 

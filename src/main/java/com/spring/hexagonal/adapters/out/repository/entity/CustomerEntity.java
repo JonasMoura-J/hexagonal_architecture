@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class CustomerEntity {
 
     @Id
-    private Long id;
+    private String id;
     private String name;
     private AddressEntity address;
     private String cpf;
