@@ -1,6 +1,5 @@
-package com.spring.hexagonal.adapters.in.controler.response;
+package com.spring.hexagonal.adapters.in.controller.response;
 
-import com.spring.hexagonal.application.core.domain.Address;
 import lombok.Data;
 
 @Data

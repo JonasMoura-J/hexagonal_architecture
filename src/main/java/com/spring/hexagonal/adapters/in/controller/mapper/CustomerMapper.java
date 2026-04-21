@@ -1,7 +1,7 @@
-package com.spring.hexagonal.adapters.in.controler.mapper;
+package com.spring.hexagonal.adapters.in.controller.mapper;
 
-import com.spring.hexagonal.adapters.in.controler.request.CustomerRequest;
-import com.spring.hexagonal.adapters.in.controler.response.CustomerResponse;
+import com.spring.hexagonal.adapters.in.controller.request.CustomerRequest;
+import com.spring.hexagonal.adapters.in.controller.response.CustomerResponse;
 import com.spring.hexagonal.application.core.domain.Customer;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

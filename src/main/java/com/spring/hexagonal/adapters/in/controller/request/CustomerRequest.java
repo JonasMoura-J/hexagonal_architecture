@@ -1,4 +1,4 @@
-package com.spring.hexagonal.adapters.in.controler.request;
+package com.spring.hexagonal.adapters.in.controller.request;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;

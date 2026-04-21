@@ -1,4 +1,4 @@
-package com.spring.hexagonal.adapters.in.controler.response;
+package com.spring.hexagonal.adapters.in.controller.response;
 
 import lombok.Data;
 

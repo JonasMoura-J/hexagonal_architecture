@@ -1,13 +1,12 @@
-package com.spring.hexagonal.adapters.in.controler;
+package com.spring.hexagonal.adapters.in.controller;
 
-import com.spring.hexagonal.adapters.in.controler.mapper.CustomerMapper;
-import com.spring.hexagonal.adapters.in.controler.request.CustomerRequest;
-import com.spring.hexagonal.adapters.in.controler.response.CustomerResponse;
+import com.spring.hexagonal.adapters.in.controller.mapper.CustomerMapper;
+import com.spring.hexagonal.adapters.in.controller.request.CustomerRequest;
+import com.spring.hexagonal.adapters.in.controller.response.CustomerResponse;
 import com.spring.hexagonal.application.ports.in.DeleteCustomerByIdInputPort;
 import com.spring.hexagonal.application.ports.in.FindCustomerByIdInputPort;
 import com.spring.hexagonal.application.ports.in.InsertCustomerInputPort;
 import com.spring.hexagonal.application.ports.in.UpdateCustomerInputPort;
-import com.spring.hexagonal.application.ports.out.FindCustomerByIdOutputPort;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
