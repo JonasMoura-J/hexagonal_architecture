@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CustomerMessage {
 
-    private  String id;
+    private String id;
     private String name;
     private String zipCode;
     private String cpf;
