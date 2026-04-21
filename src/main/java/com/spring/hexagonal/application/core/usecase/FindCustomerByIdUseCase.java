@@ -1,6 +1,7 @@
 package com.spring.hexagonal.application.core.usecase;
 
 import com.spring.hexagonal.application.core.domain.Customer;
+import com.spring.hexagonal.application.core.exceptions.ObjectNotFoundException;
 import com.spring.hexagonal.application.ports.in.FindCustomerByIdInputPort;
 import com.spring.hexagonal.application.ports.out.FindCustomerByIdOutputPort;
 
@@ -14,6 +15,6 @@ public class FindCustomerByIdUseCase implements FindCustomerByIdInputPort {
 
     @Override
     public Customer find(String id){
-        return findCustomerByIdOutputPort.find(id).orElseThrow(() -> new RuntimeException("Customer not found"));
+        return findCustomerByIdOutputPort.find(id).orElseThrow(() -> new ObjectNotFoundException(id));
     }
 }
